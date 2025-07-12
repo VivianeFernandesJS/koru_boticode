@@ -1,0 +1,50 @@
+body {
+  font-family: 'Lucida Fax', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  
+}
+
+h1 {
+  color:  (000000);
+  margin-left: 40px;
+} 
+
+/*centralir e limetar a largura da área principal da pagina */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+
+
+/* Flexbox para o container dos artigos */
+.diario {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+article {
+  background-color: white;
+  border-left: 5px solid #DA2C38;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(43291F);
+}
+
+article time {
+  font-size: 0.9rem;
+  color: #F4F0BB;
+}
+
+/*estila o cabeçario( header) e o rodape(footer)*/
+
+header, footer {
+  background-color: #226F52;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
